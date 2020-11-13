@@ -26,11 +26,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
 
+    Sessions are different from tokens because it limits the amount of time you have to access the page.  Where as a token
+    you can potentially be authenticated indefenitely. 
+
 2. What does `bcrypt` do to help us store passwords in a secure manner.
 
+    bcrypt helps us by hasing the password a crazy amount of times.  It becomes encoded and practically impossible to guess.
+
 3. How are unit tests different from integration and end-to-end testing.
+    Unit tests solely focus on testing the things about one particular isolated function, where as a E2E test may deal
+    with the entire user experience from start to finish.  Integration testing is seeing how different components or functions work together.  
 
 4. How _Test Driven Development_ changes the way we write applications and tests.
+    Writing code with TDD is a great way to write 'better' testable code.  If you start writing code with this process
+    in mind, writing your tests later will be much easier, and your actual functioning code will be perfect!
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
